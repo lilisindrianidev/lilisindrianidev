@@ -31,49 +31,43 @@ class hamburger extends Component{
         {this.state.burger &&
        //<div className="cover_burger">
         <div className="cover_burger">
-        <div className="logo2"></div>
-        <div className='burger' onClick={this.hamburger}>
-          <div className='burger_background'>
+          <div className="logo2"></div>
+          <div className='burger' onClick={this.hamburger}>
+            <div className='burger_background'>
+              
+              <div className='background_menu'>
+                <div>
+                  <a className="menuItem" href="/">Home</a>
+                </div>
+                <div>
+                  <a className="menuItem" href="/tampilUsaha">Education</a>
+                </div>
+                
+                <div>
+                  <a className="menuItem" href="/editAdmin">Skills</a>
+                </div>
+              
+                <div>
+                  <a className="menuItem" href="/laporan">Contact</a>
+                </div>
+                
+                <div>
+                  <a className="menuItem" href="/tampilPengantar">About Me</a>
+                </div>
+                
+              
+                
             
-            <div className='background_menu'>
-              <div>
-                <a className="menuItem" href="/">Home</a>
-              </div>
-              <div>
-                <a className="menuItem" href="/tampilUsaha">Edit Surat Usaha</a>
-              </div>
+              </div>  
               
-              <div>
-                <a className="menuItem" href="/editAdmin">Edit Admin</a>
-              </div>
-             
-              <div>
-                <a className="menuItem" href="/laporan">Laporan</a>
-              </div>
-              
-              <div>
-                <a className="menuItem" href="/tampilPengantar">Edit Surat Pengantar</a>
-              </div>
-              
-              <div>
-                <a className="menuItem" href="/editPenduduk">Edit Penduduk</a>
-              </div>
-             
-              <div>
-                <a className="menuItem" href="/editKepalaDesa">Edit Kepala Desa</a>
-              </div>
-              
-           
+    
+    
+    
             </div>  
+          </div>
             
-   
-   
-  
-            </div>  
-            </div>
-          
-            </div> 
-            } 
+        </div> 
+      } 
         
         
 
