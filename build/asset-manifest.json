@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/lilisindrianidev/static/css/main.1bdc532c.css",
+    "main.js": "/lilisindrianidev/static/js/main.5534ba92.js",
+    "static/js/787.e8871c4f.chunk.js": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js",
+    "static/media/lilis.png": "/lilisindrianidev/static/media/lilis.f63b75aca3eebf65d635.png",
+    "static/media/godot.jpg": "/lilisindrianidev/static/media/godot.de04c62a728e2c98f246.jpg",
+    "static/media/instagram.png": "/lilisindrianidev/static/media/instagram.046af6041ae1fffdc4a7.png",
+    "static/media/whatsapp.png": "/lilisindrianidev/static/media/whatsapp.4ba01ee1516f9a3736f4.png",
+    "static/media/up.png": "/lilisindrianidev/static/media/up.8dd51452830f559ffe8f.png",
+    "static/media/facebook.png": "/lilisindrianidev/static/media/facebook.58f707c25084b765cf5e.png",
+    "static/media/logo_dark.svg": "/lilisindrianidev/static/media/logo_dark.c78aa2686cbea3c743746ec345a1a619.svg",
+    "static/media/logo.svg": "/lilisindrianidev/static/media/logo.44e67cb2cdad3b82578e.svg",
+    "index.html": "/lilisindrianidev/index.html",
+    "main.1bdc532c.css.map": "/lilisindrianidev/static/css/main.1bdc532c.css.map",
+    "main.5534ba92.js.map": "/lilisindrianidev/static/js/main.5534ba92.js.map",
+    "787.e8871c4f.chunk.js.map": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bdc532c.css",
+    "static/js/main.5534ba92.js"
+  ]
+}
