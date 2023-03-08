@@ -272,7 +272,7 @@
       .first{
         justify-content: space-between;
         display: flex;
-       
+       position: relative;
         // flex-direction: column;
         // display: table;
         flex-wrap: wrap;
@@ -292,9 +292,10 @@
         .cover_mypic{
           align-items: center;
           margin: auto;
-          position: absolute;
+          position: relative;
           max-width: 250px;
           max-height: 330px;
+          top:50px;
           .my_picture{
           //  margin: auto; 
            max-width: 220px;
