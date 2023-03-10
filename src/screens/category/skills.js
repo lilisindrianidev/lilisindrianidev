@@ -31,10 +31,10 @@ export default class Skills extends Component{
           </div>       
 
         </div>
-        <a href="#back" >
+        {/* <a href="#back" >
           <img src={Up} className="up"/>
           <a className="link_up">Back</a>
-        </a>
+        </a> */}
          
       </div>
     );

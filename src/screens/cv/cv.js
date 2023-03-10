@@ -39,6 +39,7 @@ render(){
       <Skills/>
       <Contact/>
       <Aboutme/> */}
+      <Contact/>
     </div>
       
   );
