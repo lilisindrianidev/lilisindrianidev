@@ -37,22 +37,22 @@ class hamburger extends Component{
               
               <div className='background_menu'>
                 <div>
-                  <a className="menuItem" href="/">Home</a>
+                  <a className="menuItem" href="#home">Home</a>
                 </div>
                 <div>
-                  <a className="menuItem" href="/tampilUsaha">Education</a>
+                  <a className="menuItem" href="#education">Education</a>
                 </div>
                 
                 <div>
-                  <a className="menuItem" href="/editAdmin">Skills</a>
+                  <a className="menuItem" href="#skills">Skills</a>
                 </div>
               
                 <div>
-                  <a className="menuItem" href="/laporan">Contact</a>
+                  <a className="menuItem" href="#contact">Contact</a>
                 </div>
                 
                 <div>
-                  <a className="menuItem" href="/tampilPengantar">About Me</a>
+                  <a className="menuItem" href="#aboutme">About Me</a>
                 </div>
                 
               

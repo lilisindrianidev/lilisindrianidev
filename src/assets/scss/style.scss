@@ -3,340 +3,416 @@
 }
 @import 'responsif';
 .CV{
-.menu{
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  box-shadow: none;
-  margin-bottom: -70px;
-  background-color: rgb(134 144 154 / 15%);
- // margin-bottom: -70px;
- // background-color: rgba(8, 26, 44, 0.15);
-  -webkit-backdrop-filter: blur(4px);
-  backdrop-filter: blur(4px);
-  display: flex;  
-  position: relative;
-  z-index: 2;
-  width: 100vw;
-  height: 64px;
-  background-color: 0 0 4px rgba(0, 0, 0, 0.2);
-  
-  box-shadow: var(--base-shadow);
-        //flex-wrap: wrap;
-  .logo{
-    width:90px;
-    height: 33px;
-    margin-right: 20px;
+  .menu{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+    margin-bottom: -70px;
+    background-color: rgb(134 144 154 / 15%);
+  // margin-bottom: -70px;
+  // background-color: rgba(8, 26, 44, 0.15);
+    -webkit-backdrop-filter: blur(4px);
+    backdrop-filter: blur(4px);
+    display: flex;  
+    position: relative;
+    z-index: 2;
+    width: 100vw;
+    height: 64px;
+    background-color: 0 0 4px rgba(0, 0, 0, 0.2);
     
-    overflow-clip-margin: content-box;
-    overflow: clip;
-    background-size:contain;
-    background-position:top;
-    background: cover; 
-    background-image: url('../images/logo_dark.svg'); 
-  }
-  .link{
-    //color: rgb(241, 236, 236);
-    margin-right: 20px;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    color: white;
-
-  }
-  .second_link{
-    margin-left: 100px;
-    .link2{
+    box-shadow: var(--base-shadow);
+          //flex-wrap: wrap;
+    .logo{
+      width:90px;
+      height: 33px;
+      margin-right: 20px;
+      
+      overflow-clip-margin: content-box;
+      overflow: clip;
+      background-size:contain;
+      background-position:top;
+      background: cover; 
+      background-image: url('../images/logo_dark.svg'); 
+    }
+    .link{
       //color: rgb(241, 236, 236);
       margin-right: 20px;
       text-decoration: none;
       font-size: 16px;
       font-weight: bold;
-      //color: white;
-      color: #ffffff;
-      padding: 1.3175rem 1rem;
+      color: white;
 
     }
-    .donate{
-      background-color: #eff1f5;
-      border-radius: 9px;
-      box-shadow: inset 0 0 0 2px #ef6767;
-      padding: 13px;
-      text-decoration: none;
-      color: #ef6767;
-    }
-  }  
-
-}
- // padding:100px;
-.first{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-blend-mode: darken;
-  background-size: cover;
-  background-color:rgba(#151424, .4);
-  background-image: url('../images/godot.jpg');
-  .container{
-    width: 80%;
-    justify-content: space-between;
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-    align-items: center;
-    margin-top: 0px;
-    .cover_font{
-      margin-top: 100px;
-      margin-left: 20px;
-      .font1{
-        // margin-left: -650px;
-         font-size: 50px;
-         color: rgb(238, 231, 231);
-         
-        
-       }
-       .font2{
-       //  margin-left: -650px;
-         //top: 50px;
-         font-size: 20px;
-         color: rgb(235, 228, 228);
-         
-         position: relative;
-       }
-   
-    }
-   
-    .cover_mypic{
-      right: 50px;
-   
-      height: 450px;
-      width: 370px;
-      background-color: rgb(253, 252, 252);
-      //left: 60%;
-      right: 0;
-      top:170px;
-      border-radius:100px 100px 100px 100px;
-      //justify-content: center;
-     // align-items: center;
-      text-align: center;
-      position: relative;
-      // background-color: rgba(7, 1, 1, 0.15);
-      // -webkit-backdrop-filter: blur(4px);
-      // backdrop-filter: blur(4px);
-      .my_picture{
-        border-radius:100px 100px 100px 100px;
-        width:350px;
-        height:450px;
+    .second_link{
+      margin-left: 100px;
+      .link2{
+        //color: rgb(241, 236, 236);
+        margin-right: 20px;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        //color: white;
+        color: #ffffff;
+        padding: 1.3175rem 1rem;
 
       }
-    }
+      .donate{
+        background-color: #eff1f5;
+        border-radius: 9px;
+        box-shadow: inset 0 0 0 2px #ef6767;
+        padding: 13px;
+        text-decoration: none;
+        color: #ef6767;
+      }
+    }  
 
   }
-  
-
-}
-
-.up{
-  cursor: pointer;
-  bottom:20px ;
-  text-decoration: none;
-  align-items: center;
-  width: 70px;
-  height: 70px; 
-  padding-left: 1300px; 
-  filter: invert(100%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
-}
-
-
-.background_second{
-  background-color: rgb(10, 8, 8);
-  top: 50px;
-  position: relative;
-  width: 80%;
-  height:500px;
-  margin: auto;
-  border-radius:0px 25px 25px 0px;
-  
-  .my_picture{
-    text-decoration: none;
-    align-items: center;
-    background-image: url('../images/lilis.png');
-    background-size:contain;
-    background-position:top;
-    background: cover;  
-
-   // aspect-ratio: auto 136 / 48; 
-    margin-left: 800px;
-    width:400px;
-    height:500px;
-    border-radius:0px 25px 25px 0px;
-    background-color: rgb(223, 211, 211);     
-    .font1{
-      margin-left: -650px;
-      //top: 50px;
-      font-size: 50px;
-      color: rgb(238, 231, 231);
-      top: 200px;
-      position: relative;
-    }
-    .font2{
-      margin-left: -650px;
-      //top: 50px;
-      font-size: 20px;
-      color: rgb(235, 228, 228);
-      top: 210px;
-      position: relative;
-    }
-  }
-}
-.education{
-  position: relative;
-  top: 200px;
-  width: 95%;
-  min-height: 700px;
-  margin: auto;
-  background-color: rgb(68, 62, 54);
-  .education_write{
-    font-size: 30px;
-    color: white;
-    padding-top: 100px;
-    padding-left: 100px;
+  // padding:100px;
+  .first{
     
-      .wrap_education{
+    width:100%;
+    height: 100vh;
+    //box-sizing:border-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-blend-mode: darken;
+    // background-size: cover;
+    background-color:rgba(#151424, .4);
+    background-image: url('../images/godot.jpg') ;
+    .container{
+      width: 80%;
+      justify-content: space-between;
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+      align-items: center;
+      margin-top: 0px;
+
+      .cover_font{
+        margin-top: 100px;
+        margin-left: 20px;
+        .font1{
+          // margin-left: -650px;
+          font-size: 50px;
+          color: rgb(238, 231, 231);
+          
+          
+        }
+        .font2{
+        //  margin-left: -650px;
+          //top: 50px;
+          font-size: 20px;
+          color: rgb(235, 228, 228);
+          
+          position: relative;
+        }
+    
+      }
+    
+      .cover_mypic{
+        right: 50px;
+    
+        height: 400px;
+        width: 320px;
+        background-color: rgb(253, 252, 252);
+        //left: 60%;
+        right: 0;
+        top:120px;
+        border-radius:100px 100px 100px 100px;
+        text-align: center;
+        position: relative;
+
+        .my_picture{
+          border-radius:100px 100px 100px 100px;
+          width:300px;
+          height:400px;
+
+        }
+      }
+
+    }
+    
+
+  }
+  
+
+    .up{
+      position: relative;
+      margin-top:40px;
+      text-decoration: none;
+      align-items: center;
+      width: 70px;
+      height: 70px; 
+      margin-bottom: 30px; 
+      filter: invert(100%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    }
+   
+      .link_up{
+        //position: sticky;
+        margin-left: -60px;
+        padding-top: 200px;
+        font-size: 30px;
+        color: #ffffff;
+        text-decoration: none;
+       
+       margin-bottom: 20px; 
+      } 
+
+
+  .body_cover{
+    align-self: self-start;
+    margin-top: 100px;
+    width: 100%;
+   //s overflow: auto;
+   // top: 0; left: 0; bottom: 0; right: 0;
+    .contact{
+      position: relative;
+      //display: inline;
+      top: 50px;
+      width: 95%;
+      min-height: 700px;
+      margin: auto;
+      background-color: rgb(26, 51, 37);
+      .write_contact{
+        font-size: 30px;
+        color: white;
+        padding-top: 100px;
+        font-weight: bold;
+        margin: auto;
+       
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        
+      }  
+      .write_contact_2{
+        font-weight: normal;
+        font-size: 20px;
+        color: white;
+        padding-top: 50px;
+        //padding-left: 100px;
         display: flex;  
         flex-wrap: wrap;
-        padding-top: 80px;
-
-        .education_write_2{
-          font-size: 20px;
-          color: white;
-          //
-         // margin: auto;
-          border-left: 2px solid rgb(81, 83, 81);
-          padding-left: 5px;
-          min-height: 50px;
-          width: 250px;
-          //..padding-left: 80px;
-          .space_write_education{
-            padding-bottom: 7px;
+        margin: auto;
+        justify-content: space-between;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        .box{
+         
+          .image_contact{
+            margin: auto;
+            width: 90px;
+            height: 150px;
+            padding-top: 80px;
+            //padding-right: 40px;
+            mix-blend-mode: screen;
+            -webkit-filter: grayscale(100%) contrast(200%);
+            filter: grayscale(100%) contrast(200%);
+            margin: auto;
+            align-items: center;
+            text-align: center;
+            opacity: 1; 
+          }
+          .contact_title{
+            color: #ffffff;
+            font-size: 20px;
+            // padding-right: 30px;
+            // padding-left: 10px;
+            padding-top: 20px;
+            margin: auto;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
+          }
+        
+      
+        }
+      }
+      .other_write_contact_2{
+        width: 50%;
+        font-size: 15px;
+        font-weight: normal;
+        margin: auto;
+        
+        .box_2{
+          .other_image_contact{
+            
+            width: 50px;
+            height: 110px;
+            padding-top: 80px;
+            font-weight: normal;
+            font-size: 20px;
+            // -webkit-filter: grayscale(100%) contrast(200%);
+            // filter: grayscale(100%) contrast(200%);
+           // margin: auto;
+            align-items: baseline;
+            text-align: left;
+            
+          }
+          .contact_title_2{
+            margin: auto;
+            align-items: center;
+            text-align: center;
+            text-decoration: none;
           }
         }
       }
       
     
-    
-  }
   
-}
-.skills{
-  position: relative;
-  top: 250px;
-  width: 95%;
-  min-height: 700px;
-  margin: auto;
-  background-color: rgb(58, 46, 63);
-  .write_skills{
-    font-size: 30px;
-    color: white;
-    padding-top: 100px;
-    padding-left: 100px;
-  }
-  .wrap_skills{
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 50px;
-   // width:800px;
-    .write_skills_2{
-      font-size: 20px;
-      color: white;
-      border-left: 1px solid;
-      min-height: 0px;
-      padding-left: 10px;
-      padding-bottom: 15px;
-      color: antiquewhite;
-      .space_write_skills{
-        padding-bottom:10px;
-        .detail_skills{
-          padding-left: 10px;
-          padding-bottom:7px;
-        }
-      }
     }
   }
-  
-}
-.contact{
-  position: relative;
-  top: 300px;
-  width: 95%;
-  min-height: 700px;
-  margin: auto;
-  background-color: rgb(26, 51, 37);
-  .write_contact{
-    font-size: 30px;
-    color: white;
-    padding-top: 100px;
-    padding-left: 100px;
+  .education{
+    position: -webkit-sticky;
+    top: 200px;
+    width: 95%;
+    min-height: 700px;
     margin: auto;
-    .box{
-      .write_contact_2{
-        font-size: 20px;
-        color: white;
-        padding-top: 150px;
-        padding-left: 100px;
+    background-color: rgb(68, 62, 54);
+    .education_write{
+      font-size: 30px;
+      color: white;
+      padding-top: 100px;
+      font-weight: bold;
+      //margin: auto;
+      //justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      .wrap_education{
         display: flex;  
         flex-wrap: wrap;
-        
-        .image_contact{
-          margin: auto;
-          width: 100px;
-          height: 100px;
-          padding-right: 40px;
-          mix-blend-mode: screen;
-          -webkit-filter: grayscale(100%) contrast(200%);
-          filter: grayscale(100%) contrast(200%);
-          opacity: 1;
+        margin-top: 80px;
+       // margin: auto;
+        justify-content: space-between;
+        //align-items: center;
+        // text-align: center;
+        .title_education2{
+          color: #eff1f5;
+          font-size: 20px ; 
         }
-        .hmm{
-          display: flex;  
-          flex-wrap: wrap;
-          .contact_title{
-            width: 100px;
-            height: 100px;
-            padding-right: 30px;
-            padding-left: 10px;
-            padding-top: 20px;
+        .education_write_2{
+          padding: 20px;
+          // /: auto;
+          //min-height: 20px;
+          margin-left: 25px;
+          margin-right: 25px;
+          background-color: rgb(36, 35, 20);
+          font-size: 20px;
+          color: rgb(5, 4, 4);
+          //
+          border-radius: 20px 20px 20px 20px;
+          // margin: auto;
+          //border-left: 2px solid rgb(83, 83, 81);
+          //padding-left: 5px;
+          min-height: 50px;
+          width: 250px;
+          
+          //margin-right: 10px;
+          margin-bottom: 20px;
+          //..padding-left: 80px;
+          .title_education2{
+            color: #eff1f5;
+            font-size: 20px ; 
+            }
+          .space_write_education{
+            border-radius: 20px 20px 20px 20px;
+            padding: 10px;
+            padding-bottom: 4px;
+            background-color: #ffffff;
+            margin: auto;
+          }
+        
+        }
+      }  
+ 
+    }
+  }
+  .skills{
+    position: relative;
+    top: 100px;
+    width: 95%;
+    min-height: 700px;
+    margin: auto;
+    background-color: rgb(36, 34, 37);
+    .write_skills{
+      font-size: 30px;
+      color: white;
+      margin: auto;
+      //justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      padding-top: 50px;
+      font-weight: bold;
+    }
+    .wrap_skills{
+      width: 80%;
+      margin: auto;
+      margin-top: 50px;
+      // width:800px;
+      .write_skills_2{
+        font-size: 30px;
+        color: rgb(136, 88, 88);
+        border-left: 1px solid;
+        min-height: 0px;
+        font-weight: bold;
+        padding-bottom: 15px;
+       
+        .space_write_skills{
+          font-weight: normal;
+          color: antiquewhite;
+          font-size: 20px;
+          padding-bottom:10px;
+          .detail_skills{
+           
+            padding-bottom:7px;
           }
         }
-       
       }
     }
     
   }
- 
-}
-.aboutme{
-  position: relative;
-  top: 350px;
-  width: 95%;
-  min-height: 700px;
-  margin: auto;
-  background-color: rgb(37, 27, 27);
-  .write_aboutme{
-    font-size: 30px;
-    color: white;
-    padding-top: 100px;
-    padding-left: 100px;
+  .aboutme{
+    position: relative;
+    top: 150px;
+    width: 95%;
+    min-height: 700px;
     margin: auto;
-    .write_aboutme_2{
-      padding-top:50px;
-      font-size: 25px;
-      width: 900px;
-      min-height: 300px;
+    background-color: rgb(37, 27, 27);
+    .write_aboutme{
+      font-size: 30px;
+      color: white; 
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin: auto;
+      font-weight: bold;
+      align-items: center;
+      text-align: center;
+    }  
+    .wrap_aboutme{
+      border-radius: 15px 15px 15px 15px;
+      font-size: 15px;
+      width: 80%;
+      margin: auto; 
+      background-color: rgb(253, 251, 251);
+      .write_aboutme_2{
+        margin-left: 40px;
+        margin-right: 40px;
+        text-align: justify;
+        font-size: 20px;
+        color: #151424;
+        padding-bottom: 20px;
+        padding-top: 20px;
+      }
     }
+    
+   
   }
+  
 }
-}
+

@@ -6,6 +6,8 @@ import Contact from './../category/contact.js';
 import Skills from './../category/skills.js';
 import Aboutme from './../category/aboutme.js';
 import my from './../../assets/images/lilis.png'
+import Up from './../../assets/images/up.png';
+
 class Cv extends Component{
 render(){
   return(
@@ -24,8 +26,17 @@ render(){
           </div>
         </div>
         
+          
        
       </div> 
+     
+      <div className='body_cover'>
+        <Education/> 
+        <Contact/>
+        <Skills/>
+        /<Aboutme/>
+        
+      </div>  
       {/* </div> */}
       
       {/* <div className='background_second'>
@@ -39,7 +50,7 @@ render(){
       <Skills/>
       <Contact/>
       <Aboutme/> */}
-      <Contact/>
+  
     </div>
       
   );

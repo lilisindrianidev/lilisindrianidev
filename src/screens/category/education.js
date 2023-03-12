@@ -10,15 +10,15 @@ export default class Education extends Component{
             EDUCATION
             <div className='wrap_education'>
               <div className='education_write_2'>
-                <div className='space_write_education'>SDN TANGGERAN</div> 
+                <div className='title_education2'>SDN TANGGERAN</div> 
                 <div className='space_write_education'> Graduated in 2012</div>
               </div>
               <div className='education_write_2'>
-                  SMP N 1 PANINGGARAN
+                <div className="title_education2">SMP N 1 PANINGGARAN</div>
                 <div className='space_write_education'>Graduated in 2015</div>
               </div>
               <div className='education_write_2'>
-                SMA N 1 PANINGGARAN
+              <div className="title_education2">SMA N 1 PANINGGARAN</div>
                 <br/>
                 <div className='space_write_education'> Extraculiculer:</div>
                 <div className='space_write_education'> Theater</div>
@@ -27,7 +27,7 @@ export default class Education extends Component{
                 <div className='space_write_education'> Theater</div>
               </div>
               <div className='education_write_2'>
-                UNIVERSITAS TEKNOLOGI DIGITAL INDONESIA 
+              <div className="title_education2">UNIVERSITAS TEKNOLOGI DIGITAL INDONESIA</div>
                 <div className='space_write_education'>- Bachelor of Computer</div>
                 <div className='space_write_education'>- Computer Science</div>
                 <div className='space_write_education'>- Graduated in 2023</div>
@@ -35,9 +35,9 @@ export default class Education extends Component{
                 <br/>
                 <div className='space_write_education'>Relavant course:</div>
                 <div className='space_write_education'><li>Programming Language (Laravel, JavaScript, Kotlin, Java )</li> </div>
-                <div className='space_write_education'>- Artificial intelligence</div>
-                <div className='space_write_education'>- Networking</div>
-                <div className='space_write_education'>- Big Data</div>
+                <div className='space_write_education'><li> Artificial intelligence </li></div>
+                <div className='space_write_education'><li> Networking </li></div>
+                <div className='space_write_education'><li> Big Data </li></div>
               </div>
               {/*  */}
             </div>

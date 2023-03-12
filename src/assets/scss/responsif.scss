@@ -1,62 +1,46 @@
-@media (max-width:1440px){
-    .background_dasar{  
-      .background_atas{
-        .menu{
-          .style{
-            font-size:20px;
-         
-          }
-        }
-      }    
-      .tulisan_home{ 
-        font-size: 40px;  
-      }
-      .tulisan_daftar{
-        margin-top:100px;
-      }
-      
-        .first { 
-          .line_h{
-           
-           
-            .tulisan{
-              
-                  flex: 33.3%;
-                  max-width: 33.3%;
-                  padding: 0 4px;
-              .register_form {
-              } 
-              .tombol_register{            
-              } 
-            } 
-  
-          }
-             
-        }   
-        .column_login{
-          width: 0px;
-          .tulisan_login{
-            margin-top: 15px;
-            .login_form {
+@media (max-width:2560px){
+  .cv{
+    .body_cover{
+      margin-top: 1000px;
+      position: fixed;
+      display: inline-block;
+     .education{
+        margin-top: 1000px;
+        .education_write{
+          .wrap_education{
+            .education_write_2{
+              .space_write_education{
+
+              }
             }
-            .tombol_login{
-              margin-left:90px;
-              color:white;
-            }
-          }
+          } 
         }
-        
-   
+      }
+     
     }
-    .foot{
-      display:relative;
-    bottom:0px;
-    padding-top: 50px;
-    padding-bottom: 50px;    
-        .write_foot{
+  }
+}
+@media (max-width:1440px){
+  .cv{
+    .body_cover{
+      margin-top: 1px;
+  
+     .education{
+        margin-top: 500px;
+        .education_write{
+          .wrap_education{
+            .education_write_2{
+              .space_write_education{
+
+              }
+            }
+          } 
         }
       }
+     
+    }
   }
+}
   @media (max-width:1024px){
     .background_atas{
       .menu{
@@ -111,6 +95,7 @@
   
   @media (max-width:768px){
     .CV{
+      overflow-x :auto;
       .menu{
         .before{
           justify-content: space-between;
@@ -269,18 +254,24 @@
       }
     }
     // padding:100px;
-      .first{
-        justify-content: space-between;
-        display: flex;
-       position: relative;
-        // flex-direction: column;
-        // display: table;
-        flex-wrap: wrap;
-        
+    .first{
+      justify-content: space-between;
+      display: flex;
+      position: relative;
+      // flex-direction: column;
+      // display: table;
+      flex-wrap: wrap;
+     
+      .container{
+       
+        margin-top: 50px;
+        width: 80%;
+        min-height: 400px;
         .cover_font{
           margin: auto;
           min-width: 100%;
           margin-top: 200px;
+          
           .font1{
             
           }
@@ -288,7 +279,7 @@
             
           }
         }
-       
+        
         .cover_mypic{
           align-items: center;
           margin: auto;
@@ -298,19 +289,35 @@
           top:50px;
           .my_picture{
           //  margin: auto; 
-           max-width: 220px;
-           max-height: 330px;
+            max-width: 220px;
+            max-height: 330px;
             
             
           }
         }
-       
-    
-    
-        
-    
       }
       
+  
+    }
+    .body_cover{
+       margin-top: 1pxs;
+   
+      .education{
+        margin-top: 1px;
+        .education_write{
+          .wrap_education{
+            .education_write_2{
+              .space_write_education{
+
+              }
+            }
+          } 
+        }
+      }
+      
+    }
+
+    
   }
       
   @media (max-width:548px){
