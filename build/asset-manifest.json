@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lilisindrianidev/static/css/main.c4bb92c9.css",
-    "main.js": "/lilisindrianidev/static/js/main.d1d07fbb.js",
+    "main.css": "/lilisindrianidev/static/css/main.6dad4579.css",
+    "main.js": "/lilisindrianidev/static/js/main.3f743219.js",
     "static/js/787.e8871c4f.chunk.js": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js",
     "static/media/lilis.png": "/lilisindrianidev/static/media/lilis.f63b75aca3eebf65d635.png",
     "static/media/godot.jpg": "/lilisindrianidev/static/media/godot.de04c62a728e2c98f246.jpg",
@@ -9,15 +9,16 @@
     "static/media/whatsapp.png": "/lilisindrianidev/static/media/whatsapp.4ba01ee1516f9a3736f4.png",
     "static/media/up.png": "/lilisindrianidev/static/media/up.8dd51452830f559ffe8f.png",
     "static/media/facebook.png": "/lilisindrianidev/static/media/facebook.58f707c25084b765cf5e.png",
+    "static/media/address.png": "/lilisindrianidev/static/media/address.be246e4b68a2c5600276.png",
     "static/media/logo_dark.svg": "/lilisindrianidev/static/media/logo_dark.c78aa2686cbea3c743746ec345a1a619.svg",
     "static/media/logo.svg": "/lilisindrianidev/static/media/logo.44e67cb2cdad3b82578e.svg",
     "index.html": "/lilisindrianidev/index.html",
-    "main.c4bb92c9.css.map": "/lilisindrianidev/static/css/main.c4bb92c9.css.map",
-    "main.d1d07fbb.js.map": "/lilisindrianidev/static/js/main.d1d07fbb.js.map",
+    "main.6dad4579.css.map": "/lilisindrianidev/static/css/main.6dad4579.css.map",
+    "main.3f743219.js.map": "/lilisindrianidev/static/js/main.3f743219.js.map",
     "787.e8871c4f.chunk.js.map": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4bb92c9.css",
-    "static/js/main.d1d07fbb.js"
+    "static/css/main.6dad4579.css",
+    "static/js/main.3f743219.js"
   ]
 }
