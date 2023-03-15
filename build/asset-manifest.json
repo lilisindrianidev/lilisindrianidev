@@ -1,24 +1,40 @@
 {
   "files": {
-    "main.css": "/lilisindrianidev/static/css/main.6dad4579.css",
-    "main.js": "/lilisindrianidev/static/js/main.3f743219.js",
+    "main.css": "/lilisindrianidev/static/css/main.98a31b56.css",
+    "main.js": "/lilisindrianidev/static/js/main.7ee88d65.js",
     "static/js/787.e8871c4f.chunk.js": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js",
     "static/media/lilis.png": "/lilisindrianidev/static/media/lilis.f63b75aca3eebf65d635.png",
     "static/media/godot.jpg": "/lilisindrianidev/static/media/godot.de04c62a728e2c98f246.jpg",
+    "static/media/maintenance-release-godot.jpg": "/lilisindrianidev/static/media/maintenance-release-godot.83ef75afca758319c0c4.jpg",
+    "static/media/gdc1.jpg": "/lilisindrianidev/static/media/gdc1.75fddfea396ccebff924.jpg",
+    "static/media/page3_4.png": "/lilisindrianidev/static/media/page3_4.c52cf115f04dc1d4d91e.png",
+    "static/media/page3_2.png": "/lilisindrianidev/static/media/page3_2.c977b3160cb410c26df6.png",
+    "static/media/page3_3.png": "/lilisindrianidev/static/media/page3_3.1167c4f76fb7dadd4f37.png",
+    "static/media/gdc2.jpg": "/lilisindrianidev/static/media/gdc2.d789f87e8071bef7ec79.jpg",
     "static/media/instagram.png": "/lilisindrianidev/static/media/instagram.046af6041ae1fffdc4a7.png",
     "static/media/whatsapp.png": "/lilisindrianidev/static/media/whatsapp.4ba01ee1516f9a3736f4.png",
     "static/media/up.png": "/lilisindrianidev/static/media/up.8dd51452830f559ffe8f.png",
+    "static/media/tree.png": "/lilisindrianidev/static/media/tree.672222bd948c11bca8cb.png",
+    "static/media/s6.png": "/lilisindrianidev/static/media/s6.0b9b4db2eae8699de8ed.png",
+    "static/media/s4.png": "/lilisindrianidev/static/media/s4.ab7ec6de5d7ca282aedc.png",
+    "static/media/page3_5.svg": "/lilisindrianidev/static/media/page3_5.15a2bb341a560eb112d5d0a635df65fc.svg",
+    "static/media/page43.png": "/lilisindrianidev/static/media/page43.5dbbbeef41ba827eeda8.png",
+    "static/media/s3.png": "/lilisindrianidev/static/media/s3.fc9fbaeece3973ba9b73.png",
     "static/media/facebook.png": "/lilisindrianidev/static/media/facebook.58f707c25084b765cf5e.png",
+    "static/media/s2.png": "/lilisindrianidev/static/media/s2.a581584f62e0d35fe0d7.png",
+    "static/media/page3_1.png": "/lilisindrianidev/static/media/page3_1.8fd1041c7ec7a6687cd7.png",
+    "static/media/s7.png": "/lilisindrianidev/static/media/s7.621b27d806b42352f02a.png",
     "static/media/address.png": "/lilisindrianidev/static/media/address.be246e4b68a2c5600276.png",
     "static/media/logo_dark.svg": "/lilisindrianidev/static/media/logo_dark.c78aa2686cbea3c743746ec345a1a619.svg",
     "static/media/logo.svg": "/lilisindrianidev/static/media/logo.44e67cb2cdad3b82578e.svg",
+    "static/media/page3_6.svg": "/lilisindrianidev/static/media/page3_6.2da26e117963ed2ae60ad81728c6d6b1.svg",
     "index.html": "/lilisindrianidev/index.html",
-    "main.6dad4579.css.map": "/lilisindrianidev/static/css/main.6dad4579.css.map",
-    "main.3f743219.js.map": "/lilisindrianidev/static/js/main.3f743219.js.map",
+    "main.98a31b56.css.map": "/lilisindrianidev/static/css/main.98a31b56.css.map",
+    "main.7ee88d65.js.map": "/lilisindrianidev/static/js/main.7ee88d65.js.map",
     "787.e8871c4f.chunk.js.map": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dad4579.css",
-    "static/js/main.3f743219.js"
+    "static/css/main.98a31b56.css",
+    "static/js/main.7ee88d65.js"
   ]
 }

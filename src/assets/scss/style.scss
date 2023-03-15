@@ -129,7 +129,7 @@
         top:120px;
         border-radius:100px 100px 100px 100px;
         text-align: center;
-        position: relative;
+        position: -webkit-sticky;
 
         .my_picture{
           border-radius:100px 100px 100px 100px;
@@ -144,6 +144,7 @@
 
   }
   .page2{
+    display: block;
     padding-top: 64px;
     padding-bottom: 64px;
     max-width: 1200px;
@@ -593,14 +594,15 @@
       overflow: visible;
       .one{
         margin-top: 0;
-        
-        flex: 2;
-        padding-left: 0px;
-        // display: block;
-        // margin-block-start: 1em;
-        // margin-block-end: 1em;
-        // margin-inline-start: 0px;
-        // margin-inline-end: 0px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        // flex: 2;
+        // padding-left: 0px;
+        text-rendering: optimizeLegibility;
+        line-height: 1.5;
         .linkone{
           font-size: 16.2px;
           color: rgb(200 210 250);

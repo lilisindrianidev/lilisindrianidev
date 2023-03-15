@@ -85,7 +85,7 @@ render(){
               <img src={gdc1} className='first_pic'/>
               <div>
                 <h3 className='title_article'>
-                  Godot &amp; Friends at GDC 2023
+                Maintenance release: Godot 3.5.2
                 </h3>
                 <p className='first_article'>
                   We are going to be at the Game
@@ -115,7 +115,7 @@ render(){
               <img src={gdc2} className='first_pic'/>
               <div>
                 <h3 className='title_article'>
-                  Godot &amp; Friends at GDC 2023
+                Godot 4.0 sets sail: All aboard for new horizons
                 </h3>
                 <p className='first_article'>
                   We are going to be at the Game

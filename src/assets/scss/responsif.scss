@@ -490,14 +490,16 @@
         .container_page2_2{
          
          .new_list{
+          grid-template-columns: 80px 1fr;
             .first_pic{
-             
+             // width: 100%;
                 
              }
            .title_article{
+            font-size: 19px;
             }
             .first_article{
-              
+              display: none;
             }
           }
         }
@@ -695,23 +697,23 @@
       padding-top: 32px;
       padding-bottom: 32px;
       max-width: 1200px;
-         margin: auto;
+        // margin: auto;
       .cover_page7{
         margin: auto;
         width: auto;
         overflow: auto;
         flex-direction: column;
-        padding: 0px 16px 0px 16px;
+        // /padding: 0px 16px 0px 16px;
         .one{
           margin-top: 0;
           text-align: center;
           flex: 2;
           padding-left: 0px;
-          // display: block;
-          // margin-block-start: 1em;
-          // margin-block-end: 1em;
-          // margin-inline-start: 0px;
-          // margin-inline-end: 0px;
+          display: block;
+          margin-block-start: 1em;
+          margin-block-end: 1em;
+          margin-inline-start: 0px;
+          margin-inline-end: 0px;
           .linkone{
             font-size: 16.2px;
             color: rgb(200 210 250);
@@ -721,13 +723,15 @@
         .wraptwo{
          
           grid-template-columns: 1fr ;
-          gap: 24px;
-          margin-left: 16px;
+         
+          gap: 12px;
+          margin-left: 0;
+          text-align: center;
           .two{
          
             text-rendering: optimizeLegibility;
             line-height: 1.5;
-            padding-left: 2rem;
+            padding-left: 0;
             float: left;
             list-style: none;
             margin: 0px;
