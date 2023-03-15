@@ -129,7 +129,7 @@
         top:120px;
         border-radius:100px 100px 100px 100px;
         text-align: center;
-        position: -webkit-sticky;
+        position: relative;
 
         .my_picture{
           border-radius:100px 100px 100px 100px;
@@ -144,7 +144,6 @@
 
   }
   .page2{
-    display: block;
     padding-top: 64px;
     padding-bottom: 64px;
     max-width: 1200px;
@@ -599,8 +598,8 @@
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        // flex: 2;
-        // padding-left: 0px;
+        flex: 2;
+        padding-left: 0px;
         text-rendering: optimizeLegibility;
         line-height: 1.5;
         .linkone{
