@@ -482,6 +482,7 @@
           .box_content{
            
             .main{
+              top:20px;
             }
             .write_box_content{
             }
@@ -759,11 +760,28 @@
         }
         .three{
           flex: 1;
-          margin-left: 32px;
+          margin-left: 0px;
+          margin: auto;
+          width: 30%;
+          min-width: 250px;
+          margin-top: 32px;
+          text-align: center;
           .titlethree{
             font-size: 22px;
             font-weight: 800;
-            text-align: right;
+           
+          }
+          .wrap_picture_page7{
+            margin-top: 32px;
+            justify-content: space-around;
+            display: flex;
+            .picture_page7{
+              width: 32px;
+              aspect-ratio: auto 32 / 32;
+              height: 32px;
+              overflow-clip-margin: content-box;
+              overflow: clip;
+            }
           }
         }
         

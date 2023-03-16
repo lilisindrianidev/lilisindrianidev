@@ -33,7 +33,11 @@ import s6 from './../../assets/images/s6.png';
 import s7 from './../../assets/images/s7.png';
 import s8 from './../../assets/images/s8.png';
 
-
+import p71 from './../../assets/images/71.png';
+import p72 from './../../assets/images/72.png';
+import p73 from './../../assets/images/73.png';
+import p74 from './../../assets/images/74.png';
+import p75 from './../../assets/images/75.png';
 
 class Cv extends Component{
 render(){
@@ -125,6 +129,10 @@ render(){
                 </p>
               </div>
             </div>
+            <div className='button_page2'>
+              <a className='write_button_page2'>More News</a>
+            </div>
+            
           </div>
         </div>
       </div>
@@ -376,6 +384,13 @@ render(){
           </div>
           <h4 className='three'>
             <a className='titlethree'>Contact us</a>
+            <div className='wrap_picture_page7'>
+              <img src={p71} className="picture_page7"/>
+              <img src={p72} className="picture_page7"/>
+              <img src={p73} className="picture_page7"/>
+              <img src={p74} className="picture_page7"/>
+              <img src={p75} className="picture_page7"/>
+            </div>
           </h4>    
         </div>
       </div>

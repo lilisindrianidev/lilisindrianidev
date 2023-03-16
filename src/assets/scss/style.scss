@@ -163,8 +163,8 @@
     }
     .box_page2{
       width: auto;
-      padding-left: 16px;
-      padding-right: 16px;
+      // padding-left: 16px;
+      // padding-right: 16px;
       gap:30px;
        margin: auto;
        overflow: visible;
@@ -262,6 +262,28 @@
             margin-top: 0;
             text-rendering: optimizeLegibility;
             line-height: 1.5;
+            
+          }
+          
+        }
+        .button_page2{
+           
+          text-align: center;
+          margin: 0px !important;
+          background-color: #ffffff;
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+          font-size: 18px;
+          padding: 16px 32px 16px 32px;
+          display: inline-block;
+          text-decoration: none;
+          width:190px;
+          //font-weight: bold;
+          .write_button_page2{
+           
+            font-family: "Montserrat", sans-serif;
+            font-weight: 800;
+            color: #546b99;
+           // margin: 0px !important;
             
           }
         }
@@ -576,6 +598,7 @@
     }
   }
   .page7{
+    display: block;
     background-color: #414d69;
     color: rgb(175 180 220);
     font-size: 0.9em;
@@ -606,18 +629,19 @@
           font-size: 16.2px;
           color: rgb(200 210 250);
           text-decoration-color: rgb(200 210 250 / 30%);
+          
         }
       }
       .wraptwo{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
-        margin-left: 16px;
+       // margin-left: 16px;
         .two{
        
           text-rendering: optimizeLegibility;
           line-height: 1.5;
-          padding-left: 2rem;
+          padding-left: 1rem;
           float: left;
           list-style: none;
           margin: 0px;
@@ -643,13 +667,28 @@
         
       }
       .three{
+        
         flex: 1;
         margin-left: 32px;
+        text-align: right;
         .titlethree{
           font-size: 22px;
           font-weight: 800;
-          text-align: right;
+         
         }
+        .wrap_picture_page7{
+          margin-top: 32px;
+          justify-content: space-between;
+          display: flex;
+          .picture_page7{
+            width: 32px;
+            aspect-ratio: auto 32 / 32;
+            height: 32px;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+          }
+        }
+       
       }
       
     }
