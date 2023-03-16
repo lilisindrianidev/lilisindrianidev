@@ -21,26 +21,75 @@
     display: flex;  
     position: relative;
     z-index: 2;
-    width: 100vw;
+  width: 100vw;
     height: 64px;
     background-color: 0 0 4px rgba(0, 0, 0, 0.2);
     
     box-shadow: var(--base-shadow);
           //flex-wrap: wrap;
-    .logo{
-      width:90px;
-      height: 33px;
-      margin-right: 20px;
-      
-      overflow-clip-margin: content-box;
-      overflow: clip;
-      background-size:contain;
-      background-position:top;
-      background: cover; 
-      background-image: url('../images/logo_dark.svg'); 
+    // .defined{
+    //  display: none;
+
+    // }
+     
+          .before{
+            display: none;
+            .cover_burger_white{
+               display: none;
+              .burger_white{
+               
+                 display: none;
+              }
+            }
+           
+            .cover_logo_white{
+             display: none;
+              .logo_white{
+              display: none;
+              }
+            }
+          }
+          .before2{
+            display: none;
+            .cover_burger_white2{
+               display: none;
+              .burger_white2{
+               
+                 display: none;
+              }
+            }
+           
+            .cover_logo_white2{
+             display: none;
+              .logo_white2{
+              display: none;
+              }
+            }
+          }
+          
+     
+
+    .cover_logo{
+      margin-right: 36px;
+      padding: 0.2rem 0.5rem;
+      margin-top: 0.25rem;
+      margin-left: -0.5rem;
+      .logo{
+        display: inline;
+        width: 136px;
+        aspect-ratio: auto 136 / 48;
+        height: 48px;
+        overflow-clip-margin: content-box;
+        overflow: clip;
+        // background-size:contain;
+        // background-position:top;
+        // background: cover; 
+       // background-image: url('../images/logo_dark.svg'); 
+      }
     }
+    
     .link{
-      //color: rgb(241, 236, 236);
+      font-family: "Montserrat", sans-serif;
       margin-right: 20px;
       text-decoration: none;
       font-size: 16px;
@@ -49,6 +98,7 @@
 
     }
     .second_link{
+      font-family: "Montserrat", sans-serif;
       margin-left: 100px;
       .link2{
         //color: rgb(241, 236, 236);
@@ -66,6 +116,7 @@
         border-radius: 9px;
         box-shadow: inset 0 0 0 2px #ef6767;
         padding: 13px;
+       
         text-decoration: none;
         color: #ef6767;
       }
@@ -199,17 +250,18 @@
         .box_content{
          
           .main{
+            font-size: 22px;
             font-family:  "Montserrat", sans-serif;
             font-weight: 800;
             color: #546b99;
-            margin-top: 0px;
-            display: block;
-            font-size: 1.17em;
+            margin: 0px 0px 10px;
+             display: block;
+            // font-size: 1.17em;
             margin-block-start: 1em;
             margin-block-end: 1em;
             margin-inline-start: 0px;
             margin-inline-end: 0px;
-            font-weight: bold;
+            // font-weight: bold;
           }
           .write_box_content{
             color: #4a5365;
@@ -261,25 +313,27 @@
             opacity: 0.8;
             margin-top: 0;
             text-rendering: optimizeLegibility;
-            line-height: 1.5;
+        line-height: 1.5;
+        font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             
           }
           
         }
         .button_page2{
-           
-          text-align: center;
-          margin: 0px !important;
-          background-color: #ffffff;
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
-          font-size: 18px;
-          padding: 16px 32px 16px 32px;
-          display: inline-block;
-          text-decoration: none;
-          width:190px;
+          text-align: right;
           //font-weight: bold;
           .write_button_page2{
-           
+            display: flex;
+            
+            align-items: flex-end;
+            margin: 0px !important;
+            background-color: #ffffff;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            padding: 16px 32px 16px 32px;
+            display: inline-block;
+            text-decoration: none;
+            //width:190px;
             font-family: "Montserrat", sans-serif;
             font-weight: 800;
             color: #546b99;
@@ -355,6 +409,7 @@
             margin: 0;
             text-rendering: optimizeLegibility;
             line-height: 1.5;
+            font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             color: lightsteelblue;
             
             margin-block-start: 1em;
@@ -374,6 +429,8 @@
       margin-top: 16px;
       .button_page3{
         box-shadow: none;
+        font-weight: 800;
+        font-family: "Montserrat", sans-serif;
         background-color: rgb(111 111 111 / 27%);
         -webkit-backdrop-filter: blur(4px);
         backdrop-filter: blur(4px);
@@ -417,24 +474,23 @@
     }
     .picture_flex{
       
-      box-sizing: border-box;
+     // box-sizing: border-box;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows: auto 1fr auto;
-      gap: 20px;
-      column-count: 3;
+      //grid-template-rows: auto 1fr auto;
+      //gap: 20px;
+      //column-count: 3;
      
     
       .cover_picture_page4{
-        max-width: 1200px;
-        margin: auto;
-        overflow: visible;
-       
+        // max-width: 1200px;
+        // margin: auto;
+        // overflow: visible;
+        padding: 16px;
         flex: 1;
         text-align: center;
-        padding: 18px;
-        overflow-clip-margin: content-box;
-          overflow: clip;
+       
+       
         
         .pictures_page4{
           width: 250px;
@@ -442,6 +498,8 @@
           height: 250px;
           
           text-align: center;
+          overflow-clip-margin: content-box;
+          overflow: clip;
         }
         .title_content_page4{
           font-size: 22px;
@@ -455,6 +513,7 @@
         .content_page4{
           text-rendering: optimizeLegibility;
           line-height: 1.5;
+          font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
           color: #4A5365;
           margin: 18px 0px;
           display: block;
@@ -463,6 +522,29 @@
           margin-inline-start: 0px;
           margin-inline-end: 0px;
         
+        }
+        .button_page4{
+        
+         // background-color: transparent;
+        padding: 16px 32px 16px 32px;
+//margin: 16px 32px 16px 32px;
+        // background-color: rgb(111 111 111 / 27%);
+          .hello4{
+            display: flex;
+            
+            align-items: flex-end;
+            backdrop-filter: blur(4px);
+            background-color: rgb(111 111 111 / 27%);
+            //box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+            font-size: 18px;
+            padding: 16px 32px 16px 32px;
+            display: inline-block;
+            text-decoration: none;
+            color:hsl(206deg 58% 50%);
+            font-family: "Montserrat", sans-serif;
+            font-weight: 800;
+           
+          }
         }
       }
     
@@ -503,15 +585,34 @@
       .donate{
         color: white;
         font-size: 28px;
-        // /margin: 0px 0px 28px;
+        margin: 0px 0px 28px;
         font-weight: 800;
       }
       .article_page5{
-       max-width: 500px;
+        max-width: 500px;
         margin: auto;
         font-size: 18px;
-       /// margin : 0px 350px;
-   
+        text-rendering: optimizeLegibility;
+        line-height: 1.5;
+        font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .button5{
+        padding: 16px 32px 16px 32px;
+        .write_button5{
+          display: flex;
+            
+          align-items: flex-end;
+          backdrop-filter: blur(4px);
+          background-color: rgb(111 111 111 / 27%);
+          //box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+          font-size: 18px;
+          padding: 16px 32px 16px 32px;
+          display: inline-block;
+          text-decoration: none;
+          color:hsl(0deg 0% 100% / 95%);
+          font-family: "Montserrat", sans-serif;
+          font-weight: 800;
+        }
       }
     }
    
@@ -539,12 +640,16 @@
       font-weight: 800;
       color: #546b99;
       margin-top: 0px;
+    //   padding-top: 64px;
+    // padding-bottom: 64px;
+    margin: 0px 0px 29.88px;
     }
     .sponsored{
       justify-content: center;
       flex-wrap: wrap;
       display: flex;
       .sponsored_grey{
+       // display: block;
         // background-color: #cfdbe4;
         // border-color: #cfdbe4;
         background-color: #dcdcdc;
@@ -553,6 +658,7 @@
         
         align-items: center;
         height: 80px;
+        display: flex;
         box-sizing: border-box;
         margin-bottom: 8px;
         margin-left: 8px;
@@ -560,6 +666,7 @@
         opacity: 0.85;
         transition: opacity 0.2s;
         height: 100px;
+        text-decoration: none;
         .pic_s{
           mix-blend-mode: multiply;
           width: inherit;
@@ -625,6 +732,7 @@
         padding-left: 0px;
         text-rendering: optimizeLegibility;
         line-height: 1.5;
+        font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         .linkone{
           font-size: 16.2px;
           color: rgb(200 210 250);
@@ -636,11 +744,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 24px;
+        
        // margin-left: 16px;
         .two{
        
           text-rendering: optimizeLegibility;
           line-height: 1.5;
+          font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
           padding-left: 1rem;
           float: left;
           list-style: none;
@@ -674,7 +784,7 @@
         .titlethree{
           font-size: 22px;
           font-weight: 800;
-         
+          font-family: "Montserrat", sans-serif;
         }
         .wrap_picture_page7{
           margin-top: 32px;

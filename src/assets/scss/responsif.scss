@@ -229,45 +229,187 @@
     .CV{
        overflow-x :auto;
       .menu{
+        display: block;
+       
+        .defined{
+        // / position: absolute;
+       
+           width: 100%;
+          align-items: center;
+          overflow: initial;
+          // flex-direction: column;
+         padding: 0px 16px 0px 16px;
+         
         .before{
-          justify-content: space-between;
+          
+          width: 100%;
+          // margin-top: 0.25rem;
+         
           display: flex;
-          width: 100vw;
           align-items: center;
           text-align: center;
-         
-          .burger_white{
+          justify-content: space-between;
+          .cover_burger_white{
+           
+           filter: invert(100%) saturate(0%) brightness(120%);
+            display: block;
+            padding: 1.25rem;
+            margin-top: -0.2rem;
+            margin-right: -1rem;
+             line-height: 0px;
             cursor: pointer;
-            // position: fixed;
-           // opacity: 1.7;
-            // display:block;
-            width: 30px;
-            
-            margin-right: 20px;
-            height:22px;
-            background-image: url('../images/white_burger.png');
-            //margin-right: 25px;
-            align-items: center; 
-            background-size:contain;
-            background-position:center;
-            background: cover;
-          }
-          .logo_white{
-            width:90px;
-            height: 33px;
-            margin-left: 20px;
-            overflow-clip-margin: content-box;
-            overflow: clip;
-            background-size:contain;
-            background-position:top;
-            background: cover; 
-            background-image: url('../images/logo_dark.svg'); 
-      
-          }
+            user-select: none;
+            // margin: -3.2px -16px 0px 0px;
+            // padding: 20px;
+            .burger_white{
+              display: inline;
+              width: 24px;
+              aspect-ratio: auto 24 / 24;
+              height: 24px;
           
+              overflow-clip-margin: content-box;
+              overflow: clip;
+           }
+          }
+           
+          .cover_logo_white{
+            
+            align-items: center;
+            width: 100%;
+            overflow: initial;
+            margin-top: 0.25rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .logo_white{
+              display: inline;
+              width: 136px;
+              aspect-ratio: auto 136 / 48;
+              height: 48px;
+              overflow-clip-margin: content-box;
+              overflow: clip;
+              // background-size:contain;
+              // background-position:top;
+              // background: cover; 
+             // background-image: url('../images/logo_dark.svg'); 
+            }
+            
+          }
+        // }
         }
-        
+      }
+        .defined2{
+          // / position: absolute;
+        background-color: white;
+             width: 100%;
+            align-items: center;
+            overflow: initial;
+            // flex-direction: column;
+           padding: 0px 16px 0px 16px;
+           
+          .before2{
+            
+            width: 100%;
+           // margin-top: 0.25rem;
+           
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            .cover_burger_white2{
+             
+            //  /filter: invert(100%) saturate(0%) brightness(120%);
+              display: block;
+              padding: 1.25rem;
+              margin-top: -0.2rem;
+              margin-right: -1rem;
+               line-height: 0px;
+              cursor: pointer;
+              user-select: none;
+              // margin: -3.2px -16px 0px 0px;
+              // padding: 20px;
+              .burger_white2{
+                display: inline;
+                width: 24px;
+                aspect-ratio: auto 24 / 24;
+                height: 24px;
+            
+                overflow-clip-margin: content-box;
+                overflow: clip;
+             }
+            }
+             
+            .cover_logo_white2{
+              
+              align-items: center;
+              width: 100%;
+              overflow: initial;
+              margin-top: 0.25rem;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              .logo_white2{
+                display: inline;
+                width: 136px;
+                aspect-ratio: auto 136 / 48;
+                height: 48px;
+                overflow-clip-margin: content-box;
+                overflow: clip;
+                // background-size:contain;
+                // background-position:top;
+                // background: cover; 
+               // background-image: url('../images/logo_dark.svg'); 
+              }
+              
+            }
 
+          // }
+         
+        }
+        .menu_burger{
+          display: block;
+          width: 100%;
+          padding-right: 1rem;
+          text-align: left;
+          .left_menu{
+            margin-bottom: 16px;
+            //align-items: flex-start;
+            flex-direction: column;
+            height: auto;
+            list-style: none;
+            // /margin: 0;
+            padding-left: 0; 
+            .item_burger1{
+              // /padding-left: 0;
+              padding: 0;
+              padding-top: 16px;
+              width: 100%;
+              margin-bottom: 0;
+             // margin-left: -1rem;
+            //  / margin-right: -1rem;
+              display: list-item;
+              //-align: -webkit-match-parent;
+              text-rendering: optimizeLegibility;
+              line-height: 1.5;
+              .link_burger{
+                color: #333f67;
+                width: 100%;
+                display: block;
+                padding-top: 0.75rem;
+                padding-bottom: 0.75rem;
+                //padding-left: 1.5rem;
+                //padding-right: 1.5rem;
+                margin-top: -0.4375rem;
+                margin-bottom: -0.4375rem;
+                text-decoration: none;
+                font-size: 16px;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+      }
+      
         
         .cover_burger{
           font-family: var(--default-font-family);
@@ -281,18 +423,37 @@
           display: flex;
           //position: fixed;
           justify-content: space-between;
-          .logo2{
-            width:90px;
-            height: 33px;
-            margin-left: 20px;
-            overflow-clip-margin: content-box;
-            overflow: clip;
-            background-size:contain;
-            background-position:top;
-            background: cover; 
-            background-image: url('../images/logo.svg'); 
+          .cover_logo{
+            margin-right: 36px;
+            padding: 0.2rem 0.5rem;
+            margin-top: 0.25rem;
+            margin-left: -0.5rem;
+            .logo2{
+              display: inline;
+              width: 136px;
+              aspect-ratio: auto 136 / 48;
+              height: 48px;
+              overflow-clip-margin: content-box;
+              overflow: clip;
+              // background-size:contain;
+              // background-position:top;
+              // background: cover; 
+             // background-image: url('../images/logo_dark.svg'); 
+            }
           }
-          .burger{   
+          // .logo2{
+          //   width:90px;
+          //   height: 33px;
+          //   margin-left: 20px;
+          //   overflow-clip-margin: content-box;
+          //   overflow: clip;
+          //   background-size:contain;
+          //   background-position:top;
+          //   background: cover; 
+          //   background-image: url('../images/logo.svg'); 
+          // }
+          .burger{ 
+            
             cursor: pointer;
             // position: fixed;
            
@@ -364,9 +525,13 @@
             }
           } 
         }
-        .logo{
-         display: none;
+        .cover_logo{
+          display: none;
+          .logo{
+            display: none;
+           }              
         }
+        
         .link{
         display: none;
     
@@ -502,6 +667,14 @@
             }
             .first_article{
               display: none;
+            }
+          }
+          .button_page2{
+            text-align: left;
+            //font-weight: bold;
+            .write_button_page2{
+             
+              
             }
           }
         }

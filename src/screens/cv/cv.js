@@ -145,7 +145,7 @@ render(){
               <h4 className='title_image_page3'>Innovative design</h4>
               <p className='article_page3'>
                 Godot's Node and Scene system 
-                gives you both power and flexibility
+                gives you both power and flexibility to create evrything.
               </p>
             </div>
             
@@ -226,6 +226,9 @@ render(){
               If you know how to code, you can help by fixing bugs and working with engine contributors towards the
               implementation of new features.
             </p>
+            <div className='button_page4'>
+              <a className='hello4'>Learn more</a>
+            </div>
           </div>
           <div className='cover_picture_page4'>
             <img src={page42} className="pictures_page4"/>
@@ -234,6 +237,9 @@ render(){
               Documentation quality is essential in a game engine; help make it better by updating the API reference, writing
               new guides or submitting corrections.
             </p>
+            <div className='button_page4'>
+              <a className='hello4'>Learn more</a>
+            </div>
           </div>
           <div className='cover_picture_page4'>
             <img src={page43} className="pictures_page4"/>
@@ -241,6 +247,10 @@ render(){
             <p className='content_page4'>
               Found a problem with the engine? Don't forget to report it so that developers can track it down.
             </p>
+            <div className='button_page4'>
+              <a className='hello4'>Learn more</a>
+            </div>
+          
           </div>
         </div>  
       </div>
@@ -251,6 +261,9 @@ render(){
           <div className='article_page5'>
             You don't need to be an engine developer to help Godot. Consider donating to speed up development and make
             Godot Engine even more awesome!
+          </div>
+          <div className='button5'>
+            <a className='write_button5'> Learn more</a>
           </div>
         </div>
       </div>
