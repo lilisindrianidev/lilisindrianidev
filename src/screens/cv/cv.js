@@ -263,7 +263,7 @@ render(){
             Godot Engine even more awesome!
           </div>
           <div className='button5'>
-            <a className='write_button5'> Learn more</a>
+            <a className='write_button5'>Learn more</a>
           </div>
         </div>
       </div>
