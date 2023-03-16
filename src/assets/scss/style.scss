@@ -4,7 +4,7 @@
 
 .CV{
  // margin: 0;
-  overflow-y: scroll; 
+ // overflow-y: scroll; 
   background-color: #eff1f5;
   // width: 100vw;
   // max-width: 100vw;
@@ -33,7 +33,8 @@
     //  display: none;
 
     // }
-     
+        .defined{
+          display: none;
           .before{
             display: none;
             .cover_burger_white{
@@ -51,6 +52,9 @@
               }
             }
           }
+        } 
+        .defined2{
+          display: none;
           .before2{
             display: none;
             .cover_burger_white2{
@@ -68,7 +72,7 @@
               }
             }
           }
-          
+        }
      
 
     .cover_logo{
@@ -563,7 +567,7 @@
     color: lightsteelblue;
     overflow: auto;
     text-align: center;
-    //max-width: 1200px;
+   // max-width: 1200px;
     // width: auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -726,7 +730,7 @@
       padding-left: 16px;
       padding-right: 16px;
       display: flex;
-     // max-width: 1200px;
+     //max-width: 1200px;
       margin: auto;
       overflow: visible;
       .one{
