@@ -3,12 +3,12 @@
 }
 
 .CV{
-  margin: 0;
+ // margin: 0;
   overflow-y: scroll; 
   background-color: #eff1f5;
   // width: 100vw;
   // max-width: 100vw;
-  overflow-x: hidden;
+  //overflow-x: hidden;
   .menu{
     text-align: center;
     align-items: center;
@@ -127,7 +127,7 @@
   }
   // padding:100px;
   .first{
-    display: block;
+    //display: block;
     width:100%;
     height: 100vh;
     //box-sizing:border-box;
@@ -197,10 +197,10 @@
 
   }
   .page2{
-    display: block;
+    //display: block;
     padding-top: 64px;
     padding-bottom: 64px;
-    max-width: 1200px;
+    //max-width: 1200px;
     margin: auto;
     overflow: visible;
     width: auto;
@@ -223,7 +223,7 @@
        margin: auto;
        overflow: visible;
     
-       max-width: 1200px;
+       //max-width: 1200px;
        display: flex;
        flex-wrap: wrap;
 
@@ -350,13 +350,13 @@
   }
   
   .page3{
-    display: block;
+    //display: block;
     width: auto;
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 64px;
     padding-bottom: 64px;
-    max-width: 1200px;
+   // max-width: 1200px;
     margin: auto;
     overflow: visible;
     //display: block;
@@ -450,10 +450,10 @@
     
   }
   .page4{
-    display: block;
+    //display: block;
     padding-top: 64px;
     padding-bottom: 64px;
-    max-width: 1200px;
+    //max-width: 1200px;
     margin: auto;
     overflow: visible;
     width: auto;
@@ -558,12 +558,12 @@
     
   }
   .page5{
-   display: block;
+   //display: block;
     background-color: #333f67;
     color: lightsteelblue;
     overflow: auto;
     text-align: center;
-    max-width: 1200px;
+    //max-width: 1200px;
     // width: auto;
     padding-left: 16px;
     padding-right: 16px;
@@ -573,8 +573,8 @@
    
     .content4{
       font-family: "Montserrat", sans-serif;
-      width: 1200px;
-      max-width: 1200px;
+      // /width: 1200px;
+      //max-width: 1200px;
       margin: auto;
       overflow: visible;
       width: auto;
@@ -624,10 +624,10 @@
    
   }
   .page6{
-    display: block;
+    //display: block;
     padding-top: 64px;
     padding-bottom: 64px;
-    max-width: 1200px;
+    //max-width: 1200px;
     margin: auto;
     overflow: visible;
     width: auto;
@@ -713,20 +713,20 @@
   }
   .page7{
     
-    display: block;
+    //display: block;
     background-color: #414d69;
     color: rgb(175 180 220);
     font-size: 0.9em;
     margin-top: 64px;
     padding-top: 32px;
     padding-bottom: 32px;
-    display: block;
+    // display: block;
     .cover_page7{
       width: auto;
       padding-left: 16px;
       padding-right: 16px;
       display: flex;
-      max-width: 1200px;
+     // max-width: 1200px;
       margin: auto;
       overflow: visible;
       .one{
