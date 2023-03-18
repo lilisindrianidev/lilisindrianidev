@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/lilisindrianidev/static/css/main.a2982f3a.css",
-    "main.js": "/lilisindrianidev/static/js/main.49a650d2.js",
+    "main.css": "/lilisindrianidev/static/css/main.44ddab82.css",
+    "main.js": "/lilisindrianidev/static/js/main.e2206488.js",
     "static/js/787.e8871c4f.chunk.js": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js",
     "static/media/lilis.png": "/lilisindrianidev/static/media/lilis.f63b75aca3eebf65d635.png",
     "static/media/godot.jpg": "/lilisindrianidev/static/media/godot.de04c62a728e2c98f246.jpg",
@@ -29,12 +29,12 @@
     "static/media/address.png": "/lilisindrianidev/static/media/address.be246e4b68a2c5600276.png",
     "static/media/page3_6.svg": "/lilisindrianidev/static/media/page3_6.2da26e117963ed2ae60ad81728c6d6b1.svg",
     "index.html": "/lilisindrianidev/index.html",
-    "main.a2982f3a.css.map": "/lilisindrianidev/static/css/main.a2982f3a.css.map",
-    "main.49a650d2.js.map": "/lilisindrianidev/static/js/main.49a650d2.js.map",
+    "main.44ddab82.css.map": "/lilisindrianidev/static/css/main.44ddab82.css.map",
+    "main.e2206488.js.map": "/lilisindrianidev/static/js/main.e2206488.js.map",
     "787.e8871c4f.chunk.js.map": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2982f3a.css",
-    "static/js/main.49a650d2.js"
+    "static/css/main.44ddab82.css",
+    "static/js/main.e2206488.js"
   ]
 }

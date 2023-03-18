@@ -671,10 +671,15 @@
           }
           .button_page2{
             text-align: left;
-            //font-weight: bold;
-            .write_button_page2{
-             
-              
+            background-color: #eff1f5;
+            //cursor:pointer;
+              .write_button_page2{
+                //&:before,
+                &:hover {
+                  background-color:rgb(61, 130, 161);
+                  color: rgb(56, 55, 55);
+                  
+              }
             }
           }
         }
@@ -715,9 +720,14 @@
        
       }
       .cover_button_page3{
-       
+        background-color: #eff1f5;
+        cursor: pointer;
         .button_page3{
-         
+           cursor: pointer;
+          background-color: #eff1f5;
+          &:hover {
+            background-color: rgb(111 111 111 / 27%);
+          }
         }
       }
       
@@ -753,6 +763,16 @@
           
           
           }
+          .button_page4{
+            background-color: #eff1f5;
+            .hello4{
+              background-color: #eff1f5;
+              &:hover{
+                background-color: rgb(111 111 111 / 27%);
+              }
+              
+             }
+           }
         }
       
       }
@@ -796,6 +816,15 @@
         .article_page5{
           width: auto;
      
+        }
+        .button5{
+          background-color: #333f67; 
+          .write_button5{
+            background-color: #333f67; 
+            &:hover{
+              background-color: rgb(111 111 111 / 27%);
+            }
+          } 
         }
       }
      
