@@ -19,7 +19,7 @@ export default class RouteMap extends Component{
         <Route path='/content2' element={<Content2/>} basename={window.location.pathname || '/content2'}/>
         <Route path='/content3' element={<Content3/>} basename={window.location.pathname || '/content3'}/>
         <Route path='/content4' element={<Content4/>} basename={window.location.pathname || '/content4'}/>
-        <Route path='/more' element={<Content5/>} basename={window.location.pathname || '/more'}/>
+        <Route path='/more' element={<Content5/>} basename={window.location.pathname || '/more'} />
       
       </Routes>
     </BrowserRouter>
