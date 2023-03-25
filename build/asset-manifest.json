@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lilisindrianidev/static/css/main.221d2143.css",
+    "main.css": "/lilisindrianidev/static/css/main.1308702a.css",
     "main.js": "/lilisindrianidev/static/js/main.e2206488.js",
     "static/js/787.e8871c4f.chunk.js": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js",
     "static/media/lilis.png": "/lilisindrianidev/static/media/lilis.f63b75aca3eebf65d635.png",
@@ -29,12 +29,12 @@
     "static/media/address.png": "/lilisindrianidev/static/media/address.be246e4b68a2c5600276.png",
     "static/media/page3_6.svg": "/lilisindrianidev/static/media/page3_6.2da26e117963ed2ae60ad81728c6d6b1.svg",
     "index.html": "/lilisindrianidev/index.html",
-    "main.221d2143.css.map": "/lilisindrianidev/static/css/main.221d2143.css.map",
+    "main.1308702a.css.map": "/lilisindrianidev/static/css/main.1308702a.css.map",
     "main.e2206488.js.map": "/lilisindrianidev/static/js/main.e2206488.js.map",
     "787.e8871c4f.chunk.js.map": "/lilisindrianidev/static/js/787.e8871c4f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.221d2143.css",
+    "static/css/main.1308702a.css",
     "static/js/main.e2206488.js"
   ]
 }
