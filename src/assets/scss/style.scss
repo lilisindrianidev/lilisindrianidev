@@ -514,7 +514,6 @@
     
   }
   .page2_content1{
-    //width: 1200px;
     max-width: 1200px;
     margin: auto;
     overflow: visible;
@@ -563,7 +562,7 @@
           gap: 8px;
           text-rendering: optimizeLegibility;
           line-height: 1.5;
-         
+          text-decoration: none;
           .title_page2_content1{
             margin-top: 64px;
             margin-bottom: 8px;
@@ -822,6 +821,16 @@
         padding-left: 1.2rem;
         padding-right: 1.2rem;
         border-right: 1px solid #eeeeee;
+        color: inherit;
+        display: inline-block;
+        background-color: #ffffff;
+        padding: 0.7rem 0.7rem;
+        min-width: 1.4rem;
+        font-size: initial;
+        font-weight: 600;
+        text-align: center;
+        text-decoration: none;
+        box-shadow: var(--base-shadow);
       }
     }
   }
