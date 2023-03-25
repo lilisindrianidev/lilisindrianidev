@@ -58,7 +58,7 @@ class More extends Component{
         
         <Part6/>
         
-      
+      <div></div>
       </div>
         
     );
