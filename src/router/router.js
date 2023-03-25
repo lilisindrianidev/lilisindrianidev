@@ -9,9 +9,10 @@ import Content5 from './../screens/part1/more.js'
 
 
 export default class RouteMap extends Component{
- render(){
+ 
+  render(){
   return(
-    <BrowserRouter basename='/' >
+    <BrowserRouter basename={window.location.pathname || '*'} >
       <Routes>
         <Route path='/' element={<CV/>} basename={window.location.pathname || '/'}/>
         <Route path='/content1' element={<Content1/>} basename={window.location.pathname || '/content1'}/>
