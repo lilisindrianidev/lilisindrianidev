@@ -289,21 +289,29 @@
       margin-top: 0px;
 
       .cover_font{
-        margin-top: 100px;
+        margin-top: 200px;
         margin-left: 20px;
+        position: relative;
+        z-index: 1;
+        max-width: 670px;
+        width: auto;
+        padding-left: 16px;
+        padding-right: 16px;
         .font1{
-          // margin-left: -650px;
-          font-size: 50px;
-          color: rgb(238, 231, 231);
-          
-          
+         width: 500px;
+          font-size: 60px;
+          text-shadow: 0 0 28px #00000080;
+          margin-bottom: 20px;
+          color: white;
+          font-size: "Montserrat sans-serif";
         }
         .font2{
-        //  margin-left: -650px;
-          //top: 50px;
-          font-size: 20px;
-          color: rgb(235, 228, 228);
-          
+       font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+      max-width: 550px;
+      text-shadow: 0 0 28px #00000080;
+      color: white;
           position: relative;
         }
     

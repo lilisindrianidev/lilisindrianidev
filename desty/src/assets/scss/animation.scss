@@ -1,0 +1,70 @@
+@keyframes side {
+    0%{
+      transform: translateZ(-100%) ;
+      opacity: 0;
+      transform: scale(0);
+    }
+    100%{
+      transform: translateZ(0);
+    
+      opacity: 1;
+      transform: scale(.6);
+    }
+  }
+  @mixin side($duration){
+    animation: side $duration cubic-bezier(.445,.05,.55,.95) ;
+    transition-property: opacity,transform;
+  }
+  .hello{
+    @include side(.4s);
+  }
+  
+  @keyframes slide_down {
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+     
+      transform: translateY(80deg);
+     
+      opacity: 1;
+   
+    }
+  }
+  @mixin slide_down($duration){
+    animation: slide_down $duration cubic-bezier(.445,.05,.55,.95) ;
+    transition-property: opacity,transform;
+  }
+  .hello2{
+    @include slide_down(.4s);
+  }
+
+  @keyframes slide_img {
+    0%{
+      transform:  rotate(100%);
+       opacity: 0;
+    }
+    100%{
+      transform: perspective(2500px) rotateY(80deg);
+      opacity: 1;
+     
+   
+    }
+  }
+  @mixin slide_img($duration){
+    animation: slide_img $duration cubic-bezier(.445,.05,.55,.95);
+    backface-visibility: hidden;
+    transition-property: transform;
+  }
+  .hello0{
+    @include slide_img(.4s);
+    
+  }
+
+
+ 
+         
+          
+         
+          

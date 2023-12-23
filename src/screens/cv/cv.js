@@ -20,13 +20,13 @@ render(){
         <Menu/>
         <div className='container'>
           <div className='cover_font'>
-            <div className='font1'>Hi, i'm Lilis</div>
-            <div className='font2'> I am React Js developer</div> 
+            <div className='font1'>The game engine you've been waiting for</div>
+            <div className='font2'> The Godot Engine is a free, all-in-one, cross-platform game engine that makes it easy for you to create 2D and 3D games.</div> 
           </div>
         
-          <div className='cover_mypic'>
+          {/* <div className='cover_mypic'>
             <img src={my} className='my_picture'/>
-          </div>
+          </div> */}
         </div>
         
           
